@@ -2,8 +2,8 @@
 int c1;
 int palin(int r)
 {       
-	    int d,s=0;
-	    c1=r;
+	        int d,s=0;
+	        c1=r;
 		while(r>0)
 		{
 	     	d=r%10;
@@ -28,10 +28,10 @@ int main(void)
 	for(i=c;;i++)
 	{
 		  r=i;
-	    palin(r);
+	          palin(r);
 		  if(c1==1)
 		 {
-        printf("%d",i);
+                        printf("%d",i);
 		   	break;
 		 }
 	}
