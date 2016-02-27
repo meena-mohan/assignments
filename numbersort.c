@@ -19,7 +19,7 @@ int main(void)
 	}
 	for(i=0;i<7;i++)
 	{
-      printf("%s\t",value[i]);
+            printf("%s\t",value[i]);
 	}
 	return 0;
 }
